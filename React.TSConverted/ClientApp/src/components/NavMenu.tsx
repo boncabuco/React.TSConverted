@@ -31,7 +31,7 @@ const NavMenu: React.FC<Props> = ({ collapsed = true }) => {
                             <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={Link} className="text-dark" to="/referentials">Referentials</NavLink>
+                            <NavLink tag={Link} className="text-dark" to="/referentials?model=Country">Referentials</NavLink>
                         </NavItem>
                     </ul>
                 </Collapse>

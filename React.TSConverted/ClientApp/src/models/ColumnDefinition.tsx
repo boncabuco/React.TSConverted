@@ -1,6 +1,6 @@
 export default interface ColumnDefinition {
     key: string;
-    // displayName: string;
+    display: string;
     dataType: string;
     isPrimary: boolean;
     limit: number;
